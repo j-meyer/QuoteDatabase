@@ -1,0 +1,3 @@
+ErrorDocument 403 /error-docs/403.shtml
+	Order allow, deny
+	Deny from all
