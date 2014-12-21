@@ -8,10 +8,10 @@
 <div id="bread">
 
 	<div id="topbar">
-	<a href="https://members.csh.rit.edu/~mclovin/main.php">Home</a>
-   <a href="https://members.csh.rit.edu/~mclovin/submit.php">Add a Quote</a>
-	<a href="https://members.csh.rit.edu/~mclovin/main.php?top">Top Rated</a>
-	<a href="https://members.csh.rit.edu/~mclovin/main.php?random">Random</a>
+	<a href="/main.php">Home</a>
+   <a href="/submit.php">Add a Quote</a>
+	<a href="/main.php?top">Top Rated</a>
+	<a href="/main.php?random">Random</a>
 	
 	</div>
 	
@@ -58,7 +58,6 @@
 		
 		echo "Your quote was submitted at $timedate  <br>";
 		echo "Your ID Number is 
-
 			<a href=\"./main.php/?$idnum\">$idnum</a>";
 		}else{
 			echo($error);
