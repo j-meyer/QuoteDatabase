@@ -1,9 +1,9 @@
 
 <?php
-	$mysqluser="#####";
-	$mysqlpassword="####";
-	$mysqlhost="######";
-	$error="Oh shit, the database is down, go get McLovin!<br>";
-	$dbname="#####";
-	$tblname="#####";
+	$mysqluser="quote";
+	$mysqlpassword="quote";
+	$mysqlhost="localhost";
+	$error="There has been an error. Please contact us. <br>";
+	$dbname="quotedatabase";
+	$tblname="quote";
 ?>

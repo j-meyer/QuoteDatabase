@@ -7,22 +7,7 @@
 
 <body>
 <link rel="stylesheet" type="text/css" href="./main.css" />
-	<?php 
-	/*
-		mysql> use Quotes;
-		mysql> describe userQuotes;
-	+-----------+-------------+------+-----+---------+----------------+
-	| Field     | Type        | Null | Key | Default | Extra          |
-	+-----------+-------------+------+-----+---------+----------------+
-	| numberID  | smallint(6) | NO   | PRI | NULL    | auto_increment | 
-	| rating    | smallint(6) | YES  |     | NULL    |                | 
-	| quote     | text        | NO   |     | NULL    |                | 
-	| timestamp | datetime    | YES  |     | NULL    |                | 
-	| lastip    | int(11)     | NO   |     | NULL    | 		  |
-	| person    | text        | YES  |     | NULL    |                |
-	+-----------+-------------+------+-----+---------+----------------+
-	*/
-	?>
+
 <div id="bread">
 
 <div id="topbar">
@@ -49,9 +34,8 @@
 
 
 		if($connId){
-			//echo("Connected");
-			//Connected Correctly
-	
+
+
 		mysql_select_db($dbname);
 		//Go thru everything, also need to add a top 20 and bottom 20	
 		if($tag == 'random'){
