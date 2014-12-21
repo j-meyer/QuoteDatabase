@@ -1,0 +1,15 @@
+Setting up MySQL Server
+=======================
+
+Create user and password:
+    create user 'quote'@'localhost' IDENTIFIED BY 'quote';
+
+Create the database
+    create database quotedatabase;
+
+Create table in the database
+    use quotedatabase;
+    create table quote (NumberID INT NOT NULL AUTO_INCREMENT, rating INT, quote TEXT NOT NULL, timestamp DATETIME, ownerip VARCHAR(16) NOT NULL, person TEXT, numberofratings INT, percentage INT, PRIMARY KEY(NumberID));
+    create table iplist (numberID INT NOT NULL, ipaddress VARCHAR(16));
+    GRANT ALL ON quotedatabase.* TO 'quote'@'localhost';
+
